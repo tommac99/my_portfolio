@@ -51,17 +51,3 @@ export const Blog: FC = () => {
     </Grid>
   );
 };
-
-const useStyles = makeStyles((theme: Theme) => ({
-  blogItemImage: {
-    transition: "opacity 1s, transform 1s",
-
-    "&:hover": {
-      boxShadow:
-        "0 10px 30px rgba(0, 0, 0, 0.19), 0 6px 10px rgba(0, 0, 0, 0.23)",
-    },
-  },
-  root: {
-    flexGrow: 1,
-  },
-}));

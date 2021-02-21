@@ -9,7 +9,6 @@ import Drawer from "@material-ui/core/Drawer";
 import { LinkTo } from "../common/LinkTo";
 
 export const Header: FC = () => {
-  const [navigationItemClass, setNavigationItemClass] = useState<boolean>(true);
   const [isDrawerVisible, setIsDrawerVisible] = useState<boolean>(false);
 
   const classes = useStyles();
@@ -45,33 +44,29 @@ export const Header: FC = () => {
             <LinkTo
               to="profile"
               title="About"
-              enableNavigationItemClass={navigationItemClass}
+              enableNavigationItemClass={true}
             />
             <LinkTo
               to="experience"
               title="Experience"
-              enableNavigationItemClass={navigationItemClass}
+              enableNavigationItemClass={true}
             />
             <LinkTo
               to="skills"
               title="Skills"
-              enableNavigationItemClass={navigationItemClass}
+              enableNavigationItemClass={true}
             />
             <LinkTo
               to="education"
               title="Education"
-              enableNavigationItemClass={navigationItemClass}
+              enableNavigationItemClass={true}
             />
-            <LinkTo
-              to="blog"
-              title="Blog"
-              enableNavigationItemClass={navigationItemClass}
-            />
+            <LinkTo to="blog" title="Blog" enableNavigationItemClass={true} />
             <LinkTo
               to="contact"
               title="Contact"
               offset={-400}
-              enableNavigationItemClass={navigationItemClass}
+              enableNavigationItemClass={true}
             />
           </Grid>
         </Toolbar>
@@ -85,36 +80,24 @@ export const Header: FC = () => {
           spacing={0}
           direction="column"
         >
-          <LinkTo
-            to="profile"
-            title="About"
-            enableNavigationItemClass={navigationItemClass}
-          />
+          <LinkTo to="profile" title="About" enableNavigationItemClass={true} />
           <LinkTo
             to="experience"
             title="Experience"
-            enableNavigationItemClass={navigationItemClass}
+            enableNavigationItemClass={true}
           />
-          <LinkTo
-            to="skills"
-            title="Skills"
-            enableNavigationItemClass={navigationItemClass}
-          />
+          <LinkTo to="skills" title="Skills" enableNavigationItemClass={true} />
           <LinkTo
             to="education"
             title="Education"
-            enableNavigationItemClass={navigationItemClass}
+            enableNavigationItemClass={true}
           />
-          <LinkTo
-            to="blog"
-            title="Blog"
-            enableNavigationItemClass={navigationItemClass}
-          />
+          <LinkTo to="blog" title="Blog" enableNavigationItemClass={true} />
           <LinkTo
             to="contact"
             title="Contact"
             offset={-400}
-            enableNavigationItemClass={navigationItemClass}
+            enableNavigationItemClass={true}
           />
         </Grid>
       </Drawer>
