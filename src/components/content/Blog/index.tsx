@@ -1,6 +1,5 @@
 import { FC, useState, useEffect } from "react";
 import Grid from "@material-ui/core/Grid";
-import { makeStyles, Theme } from "@material-ui/core/styles";
 import { BlogItem } from "./Blog";
 import { GetBlogs } from "../../../services";
 import { SectionTitle } from "../../common";
