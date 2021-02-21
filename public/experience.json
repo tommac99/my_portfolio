@@ -1,0 +1,20 @@
+[
+  {
+    "year": "Sept 2019 - March 2021",
+    "company": "Productpine, Amsterdam",
+    "title": "Junior Frontend Developer",
+    "description": "Building and maintaining multiple apps and websites as a 2 person team. Proficient in HTML, CSS, JS/Typescript & Ruby on rails. Building and developing a CMS, Lightspeed webshop and Shopify webshop and a instore tablet application. Managing frontend development and being active in business UI/UX decisions."
+  },
+  {
+    "year": "Nov 2019 - Current",
+    "company": "Le Wagon, Amsterdam",
+    "title": "Lead Teacher",
+    "description": "Run lectures and Teach 20 - 30 students of all ages web developer content. Cover topics such as web basics, HTTPS requests, HTML, CSS, JS, Ruby, Ruby on Rails and all the MVC architecture. Create and run interactive and interesting lectures about APIs, SEOs,  web animations and best practices of web development."
+  },
+  {
+    "year": "Sept 2020 - Current",
+    "company": "Fryde, USA",
+    "title": "Frontend Developer",
+    "description": "Build and maintain 4 web apps.  Proficient in HTML, CSS, JS/Typescript & React. Use Graphql and APIs"
+  }
+]

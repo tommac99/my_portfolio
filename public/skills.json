@@ -1,0 +1,67 @@
+[
+  {
+    "name": "HTML",
+    "completed": 92
+  },
+  {
+    "name": "CSS/SCSS",
+    "completed": 90
+  },
+  {
+    "name": "JavaScript",
+    "completed": 84
+  },
+  {
+    "name": "Typescript",
+    "completed": 80
+    
+  },
+  {
+    "name": "React",
+    "completed": 78
+  },
+  {
+    "name": "Ruby",
+    "completed": 76
+  },
+  {
+    "name": "Ruby on Rails",
+    "completed": 74
+  },
+  {
+    "name": "Shopify Liquid",
+    "completed": 72
+  },
+  {
+    "name": "Node",
+    "completed": 70
+  },
+  {
+    "name": "GraphQL",
+    "completed": 45
+  },
+  {
+    "name": "Redux",
+    "completed": 40
+  },
+  {
+    "name": "React-Native",
+    "completed": 20
+  },
+  {
+    "name": "C#",
+    "completed": 15
+  },
+  {
+    "name": "Adobe Photoshop",
+    "completed": 80
+  },
+  {
+    "name": "Adobe XD",
+    "completed": 72
+  },
+  {
+    "name": "Adobe Illustrator",
+    "completed": 66
+  }
+]
